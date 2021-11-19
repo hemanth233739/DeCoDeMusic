@@ -255,8 +255,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url="t.me/decodesupport"),
-                    InlineKeyboardButton("📡 Updates", url="t.me/DeeCodebots"),
+                    InlineKeyboardButton("🚨 Support", url="t.me/hgbotssupportgroup"),
+                    InlineKeyboardButton("📡 Updates", url="t.me/hgbotsupdates"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -356,8 +356,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url="t.me/decodesupport"),
-                    InlineKeyboardButton("📡 Updates", url="t.me/DeeCodebots"),
+                    InlineKeyboardButton("🚨 Support", url="t.me/hgbotssupportgroup"),
+                    InlineKeyboardButton("📡 Updates", url="t.me/hgbotsupdates"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
